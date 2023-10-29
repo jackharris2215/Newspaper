@@ -46,7 +46,10 @@ INSTALLED_APPS = [
     #end 3rd party
     "accounts",
     "pages",
+    "articles",
 ]
+
+TIME_ZONE = "America/New_York"
 
 AUTH_USER_MODEL = "accounts.CustomUser"
 
